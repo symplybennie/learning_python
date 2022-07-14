@@ -12,8 +12,9 @@ def sumNum():
     while count <= num:
         sum = sum + count
         count += 1
+        return sum
     #else:
-        print("Your Total Sum is: ", sum)
+        #print("Your Total Sum is: ", sum)
 
             
 sumNum()
